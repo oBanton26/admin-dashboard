@@ -8,9 +8,6 @@
     grid: 8vh 12vh 80vh / 1fr 3.5fr;
 }
 
-.logo {
-    background-color: blue;
-}
 
 
 
@@ -65,17 +62,42 @@ input[type="search"]:focus {
 
 
 
-.sidebar {
-    background-color: green;
 
+/* Logo and sidebar */
+.logo,
+.sidebar {
+    background-color: #C32F27;
+}
+
+#logo {
+    height: 50px;
+    width: auto;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-left: 25px;
+    display: grid;
+    grid-auto-flow: column;
+    place-content: center start;
+    align-items: center;
+    gap: 10px;
+}
+.sidebar {
     grid-row: span 2;
 }
 
+
+
+
+
+
 .profile-bar {
-    background-color: red;
+    background-color: #F7B538;
 }
 
 .content-panel {
-    background-color: burlywood;
+    background-color: #DB7C26;
 }
 
