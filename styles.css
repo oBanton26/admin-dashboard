@@ -13,7 +13,7 @@
 
 /* Search-bar */
 .search-bar {
-    background-color: #F7B538;
+    background-color: #f2d7a6;
     padding: 0 20px;
     display: grid;
     grid-template-columns: 16fr 1fr 1fr 2fr;
@@ -112,7 +112,7 @@ input[type="search"]:focus {
 
 
 .profile-bar {
-    background-color: #F7B538;
+    background-color: #f2d7a6;
 }
 
 .content-panel {
