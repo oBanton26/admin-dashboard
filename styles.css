@@ -100,11 +100,17 @@ input[type="search"]:focus {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(245, 231, 210)
+}
+
 .sidebar-icon {
     height: 30px;
     width: auto;
     filter: invert(99%) sepia(26%) saturate(921%) hue-rotate(315deg) brightness(100%) contrast(92%);
 }
+
 
 
 
