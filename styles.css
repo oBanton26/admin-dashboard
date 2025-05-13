@@ -21,6 +21,7 @@
     place-items: center start;
     font-size: 1.2rem;
     z-index: 15;
+    min-height: 60px;
 }
 
 label,
@@ -119,18 +120,50 @@ a {
 
 
 
-.content-panel {
-    background-color: #db7e26ef;
-    padding: 10px;
-    z-index: 5;
-}
+
 
 /* Profile bar */
 
 .profile-bar {
     background-color: #f2d7a6;
     box-shadow: 0px 6px 15px rgba(92, 92, 92, 0.556);
+    min-height: 100px;
+    padding-right: 60px;
+    padding-left: 20px;
     z-index: 10;
+
+    display: grid;
+    grid-template-columns: 1fr 5fr repeat(3, 1.5fr);
+    place-items: center;
+}
+
+.big-account-circle {
+    height: 100px;
+    width: auto;
+}
+
+.profile-naming {
+    justify-self: start;
+}
+
+.profile-naming > p {
+    font-weight: bold;
+}
+
+.action-btn {
+    appearance: none;
+    border: none;
+    background-color: #C32F27;
+    color: rgb(245, 231, 210);
+    font-size: 1rem;
+    font-weight: 800;
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.action-btn:hover {
+    background-color: #b52b24;
 }
 
 
@@ -141,3 +174,8 @@ a {
 
 
 
+.content-panel {
+    background-color: #db7e26ef;
+    padding: 10px;
+    z-index: 5;
+}
